@@ -25,6 +25,7 @@ WebDriver driver;
 	  @AfterMethod
 	  public void afterMethod() {
 		  driver.close();
+		  System.out.println("Browser is Closed");
 	  }
 
 	  public void Ibrowser(String BrowserName,String URL) throws InterruptedException{
